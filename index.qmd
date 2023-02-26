@@ -12,8 +12,12 @@ title-block-banner: true
 ---
 
 ## Question 1.1
-```{r}
-
+```{r include=FALSE}
+install.packages("quarto", dependencies = TRUE)
+install.packages("targets", dependencies = TRUE)
 ```
 
-## Question 2
+```{r include=FALSE}
+library(quarto)
+```
+

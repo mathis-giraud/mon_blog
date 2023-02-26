@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mon premier blog - Mathis GIRAUD",
+    "section": "",
+    "text": "install.packages(\"quarto\", dependencies = TRUE)\n\nInstallation du package dans 'C:/Users/mathi/OneDrive/Bureau/Projet R V3/my_blog/renv/library/R-4.2/x86_64-w64-mingw32'\n(car 'lib' n'est pas spécifié)\n\n\nle package 'quarto' a été décompressé et les sommes MD5 ont été vérifiées avec succés\n\nLes packages binaires téléchargés sont dans\n    C:\\Users\\mathi\\AppData\\Local\\Temp\\RtmpSU97pD\\downloaded_packages\n\ninstall.packages(\"targets\", dependencies = TRUE)\n\nInstallation du package dans 'C:/Users/mathi/OneDrive/Bureau/Projet R V3/my_blog/renv/library/R-4.2/x86_64-w64-mingw32'\n(car 'lib' n'est pas spécifié)\n\n\nle package 'targets' a été décompressé et les sommes MD5 ont été vérifiées avec succés\n\nLes packages binaires téléchargés sont dans\n    C:\\Users\\mathi\\AppData\\Local\\Temp\\RtmpSU97pD\\downloaded_packages\n\n\n\nlibrary(quarto)\n\nWarning: le package 'quarto' a été compilé avec la version R 4.2.2"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Code R",
+    "section": "",
+    "text": "# install.packages(\"quarto\",dependencies = TRUE)\n# install.packages(\"targets\",dependencies = TRUE)\n# install.packages(\"remotes\",dependencies = TRUE)\n\n\n\nremotes::install_github(\"https://github.com/r-lib/remotes.git\")\n\nSkipping install of 'remotes' from a github remote, the SHA1 (1e121409) has not changed since last install.\n  Use `force = TRUE` to force installation\n\n\n\n\nremotes::install_github(\"https://github.com/mathis-giraud/heron.git\")\n\nSkipping install of 'heron' from a github remote, the SHA1 (4b725649) has not changed since last install.\n  Use `force = TRUE` to force installation\n\n\n\n\nlibrary(targets)\n\nWarning: le package 'targets' a été compilé avec la version R 4.2.2\n\n# tar_script(\"_targets.R\")"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Prsentation",
+    "section": "",
+    "text": "Voici mon premier blog en quarto. Bienvenue!\nJe m’appelle Mathis GIRAUD. Je suis étudiant en M1 ECAP (Econométrie, Statistique) et je suis passionné de sport automobile, comme le montre la photo suivante. Vous pouvez retrouver mes coordonnées en haut à droite de cette page."
+  }
+]

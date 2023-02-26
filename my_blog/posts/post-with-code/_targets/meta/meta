@@ -1,0 +1,3 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+.Random.seed|object|84eede0a57654718|||||||||||||||
+report|stem|401d8f5a50cdb834|670f5e3bfefd19d7|0c43b802789f9408|-237041703|_site*about.qmd*index.qmd*posts/post-with-code/index.qmd*posts/welcome/index.qmd*_quarto.yml|t19414.842286886s|bee5c4df8924055c|6522|file|local|vector|||13.19||
