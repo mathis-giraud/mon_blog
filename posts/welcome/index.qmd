@@ -1,12 +1,13 @@
 ---
-title: "Welcome To My Blog"
-author: "Tristan O'Malley"
+title: "Présentation"
+author: "Mathis GIRAUD"
 date: "2023-02-18"
-categories: [news]
+categories: [Une brève présentation]
 ---
 
-This is the first post in a Quarto blog. Welcome!
+Voici mon premier blog en quarto. Bienvenue!
 
-![](thumbnail.jpg)
+Je m'appelle Mathis GIRAUD. Je suis étudiant en M1 ECAP (Econométrie, Statistique) et je suis passionné de sport automobile, comme le montre la photo suivante.
+Vous pouvez retrouver mes coordonnées en haut à droite de cette page.
 
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+![](image.jpg)

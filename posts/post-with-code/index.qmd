@@ -1,13 +1,78 @@
 ---
-title: "Post With Code"
-author: "Harlow Malloc"
+title: "Code R"
+author: "Mathis GIRAUD"
 date: "2023-02-21"
-categories: [news, code, analysis]
-image: "image.jpg"
 ---
 
-This is a post with executable code.
+# 1
+
+```{r message=FALSE, warning=FALSE}
+# install.packages("quarto",dependencies = TRUE)
+# install.packages("targets",dependencies = TRUE)
+# install.packages("remotes",dependencies = TRUE)
+```
+
+## Librairie heron
+```{r}
+remotes::install_github("https://github.com/r-lib/remotes.git")
+```
+
+
+## Question 6
+```{r}
+remotes::install_github("https://github.com/mathis-giraud/heron.git")
+```
+
+
+## Question 7
+```{r}
+library(targets)
+
+# tar_script("_targets.R")
+```
+
+
+## Question 11
+
+# Je n'ai pas réussi cette partie, R ne reconnait pas le fichier _targets.R ni le dossier _targets
+# Je pensais que cela venait de mes tar_target mais ils fonctionnent
+# J'ai néanmoins uniformisé le code avec lintr
+```{r}
+# Exécution des tar_targets
+# tar_make()
+```
 
 ```{r}
-1 + 1
+# tar_script("_targets.R")
 ```
+
+```{r}
+# tar_edit("_targets.R")
+```
+
+```{r}
+# tar_read("_targets.R")
+```
+
+```{r}
+# tar_make()
+```
+
+```{r}
+# install.packages("devtools", dependencies = TRUE)
+```
+
+```{r}
+# devtools::install_github("r-lib/lintr")
+```
+
+```{r  message=FALSE}
+# lintr::use_lintr(type = "tidyverse")
+usethis::use_github_action("lint-project")
+lintr::lint_dir()
+```
+
+```{r}
+# install.packages("styler",dependencies = TRUE)
+```
+
